@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ponte em MDF - OMEGATech</title>
+        <link rel="icon" type="image/x-icon" href="assets/icone.ico">
+        <link rel="stylesheet" href="styles/stylePrincipal.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap">
+    </head> 
+    <body>
+
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/imagens/logo2.png" alt="logo">
+                <h1>OmegaTech Engenharia</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quemSomos.html" >Quem Somos</a></li>
+                <li id="projeto"><a href="#" class="ativo">Projetos</a>
+                    <div class="subMenu">
+                        <a href="ratimbum.html">Rá-Tim-Bum</a>
+                        <a href="#">Ponte em MDF</a>
+                        <a href="circuito.html">Circuito CI</a>
+                    </div>
+                </li>
+                <li><a href="contato.html">Contato</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slides">
+        <div class="slide-container">
+            <span class="seta esquerda">&#10094;</span>
+            <span class="seta direita">&#10095;</span>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ponte/foto2.png" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ponte/foto3.png" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ponte/foto4.png" alt="Slide 3">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ponte/foto5.png" alt="Slide 4">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ponte/foto6.png" alt="Slide 5">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ponte/foto7.png" alt="Slide 6">
+            </div>
+
+            <div class="indicadorSlide">
+                <span class="indicador" onclick="currentSlide(0)"></span>
+                <span class="indicador" onclick="currentSlide(1)"></span>
+                <span class="indicador" onclick="currentSlide(2)"></span>
+                <span class="indicador" onclick="currentSlide(3)"></span>
+                <span class="indicador" onclick="currentSlide(4)"></span>
+                <span class="indicador" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="ponte">
+        <h2>Ponte em MDF</h2>
+        <p class="descricao">Esse projeto foi proposto a nossa equipe com o intuito de testar nossos conhecimentos no ramo da engenharia. A ideia era criar uma ponte feita somente de madeira MDF, com espessura de 3mm, que suportasse o máximo de peso possível. As equipes envolvidas, contavam com auxílio de uma Cortadora a Laser para cortar a madeira. Foi estabelecido um edital com regras e medidas, para que todos pudessem competir com as mesmas chances.</p>
+        <img src="assets/imagens/projeto/ponte/foto1.png" alt="imagem da nossa ponte" class="imagem">
+    </section>
+
+    <section id="nossaPonte">
+            <h2>Nossa Ponte</h2>
+            <p class="descricao">Nossa ponte começou a ser planejada no dia 22/04/2024 e foi concluída no dia 30/05. Durante esse intervalo de dias, nosso grupo realizou diversas reuniões e calculou cada parte da ponte para que aguentasse o máximo de peso possível. Utilizando conceitos aprendidos em sala, a equipe construiu a ponte pensando em cada detalhe para aguentar o peso. Fizemos com um estilo medieval para diferenciar dos demais.</p>
+            
+    </section>
+
+    <iframe width="480" height="240" src="https://www.youtube.com/embed/R45UipsDIc8" title="PONTE PROJETO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+        <script src="scripts/script.js"></script>
+
+        <footer>
+            <p>&copy; 2024 OMEGATech Engenharia - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>

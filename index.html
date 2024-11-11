@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home- OMEGATech</title>
+        <link rel="icon" type="image/x-icon" href="assets/icone.ico">
+        <link rel="stylesheet" href="styles/stylePrincipal.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap">
+    </head> 
+    <body>
+
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/imagens/logo2.png" alt="logo">
+                <h1>OmegaTech Engenharia</h1>
+            </div>
+            <ul>
+                <li><a href="#" class="ativo">Início</a></li>
+                <li><a href="quemSomos.html" >Quem Somos</a></li>
+                <li id="projeto"><a href="#">Projetos</a>
+                    <div class="subMenu">
+                        <a href="ratimbum.html">Rá-Tim-Bum</a>
+                        <a href="ponte.html">Ponte em MDF</a>
+                        <a href="circuito.html">Circuito CI</a>
+                    </div>
+                </li>   
+                <li><a href="contato.html">Contato</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slides">
+        <div class="slide-container">
+            <span class="seta esquerda">&#10094;</span>
+            <span class="seta direita">&#10095;</span>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ratimbum/ra.png" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto1.png" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ponte/foto2.png" alt="Slide 3">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ratimbum/foto2.png" alt="Slide 4">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto7.png" alt="Slide 5">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ratimbum/foto3.png" alt="Slide 6">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/ratimbum/foto7.png" alt="Slide 7">
+            </div>
+            
+            <div class="indicadorSlide">
+                <span class="indicador" onclick="currentSlide(0)"></span>
+                <span class="indicador" onclick="currentSlide(1)"></span>
+                <span class="indicador" onclick="currentSlide(2)"></span>
+                <span class="indicador" onclick="currentSlide(3)"></span>
+                <span class="indicador" onclick="currentSlide(4)"></span>
+                <span class="indicador" onclick="currentSlide(5)"></span>
+                <span class="indicador" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+    </section>
+    <section class="lema">
+        <span>
+            <h2>Tecnologia e Inovação: </h2>
+            <h4>Códigos que transformam, resultados que impressionam!</h4>
+        </span>
+    </section>
+
+    <img src="assets/imagens/equipe/equipe.png" alt="Foto da equipe Omega Tech" class="foto-equipe">
+
+    <section class="intro">
+        <h2>A Equipe</h2>
+        <p>
+            A <b>Omega Tech Engenharia</b>, é uma empresa formada por alunos do 2º ciclo de Engenharia da Computação da Universidade Santa Cecília. Nosso foco é desenvolver projetos acadêmicos nas áreas de tecnologia, eletrônica, elétrica e programação, aplicando os conhecimentos adquiridos ao longo do curso. Somos dedicados à criação de soluções para os desafios propostos pela faculdade, sempre com compromisso e qualidade em cada entrega.
+        </p>
+    </section>
+
+    <section class="valores">
+        <h3>Nossos Valores</h3>
+        <i style="color: red;">-------------MUDAR TEXTO----------------------</i>
+        <ul>
+            <li><b>Excelência Acadêmica</b> - Buscamos sempre o melhor desempenho em nossos projetos acadêmicos, aplicando as mais recentes tecnologias e conhecimentos para alcançar resultados de qualidade.</li>
+            <li><b>Colaboração e Crescimento</b> - Trabalhamos em equipe, unindo nossas habilidades para solucionar desafios e evoluir juntos em cada projeto. Nosso objetivo é sempre o aprendizado contínuo.</li>
+            <li><b>Dedicação e Compromisso</b> - Somos dedicados ao nosso crescimento acadêmico e ao cumprimento dos desafios propostos. Cada projeto é realizado com foco no aprimoramento técnico e na entrega de soluções completas.</li>
+            <li><b>Responsabilidade e Sustentabilidade</b> - Incorporamos a sustentabilidade e a responsabilidade social em nossos projetos, buscando soluções que respeitem o meio ambiente e a sociedade, mesmo em um contexto acadêmico.</li>       
+            <li><b>Inovação em Processos</b> - Embora nossa principal missão seja acadêmica, buscamos explorar novas abordagens em nossos projetos, contribuindo para a evolução do conhecimento e técnicas dentro da Engenharia da Computação.</li>
+        </ul>
+    </section>
+
+    <section class="projetos">
+        <h3>Projetos em Destaque</h3>
+        <i style="color: red;">-------------ADICIONAR E RESUMIR TEXTO----------------------</i>
+        <ul>
+            <li><b>Rá-Tim-Bum</b> -  </li>
+            <li><b>Ponte em MDF</b> - Esse projeto foi proposto a nossa equipe com o intuito de testar nossos conhecimentos no ramo da engenharia. A ideia era criar uma ponte feita somente de madeira MDF, com espessura de 3mm, que suportasse o máximo de peso possível. As equipes envolvidas, contavam com auxílio de uma Cortadora a Laser para cortar a madeira. Foi estabelecido um edital com regras e medidas, para que todos pudessem competir com as mesmas chances.</li> 
+            <li><b>Circuito CI</b> -  </li> 
+
+    </section>
+
+    <section class="assista-youtube">
+        <h3>Assista no YouTube</h3>
+        <i style="color: red;">-------------MUDAR TEXTO----------------------</i>
+        <ul>
+            <li><b>Em nosso canal no YouTube</b>, você encontra conteúdos exclusivos sobre o mundo da engenharia, 
+                explorando tecnologias inovadoras e oferecendo dicas valiosas para engenheiros e entusiastas da área. 
+                Assine nosso canal e fique por dentro dos nossos projetos, bastidores e muito mais, para acompanhar de perto 
+                o desenvolvimento das nossas soluções.</li>
+        </ul>
+        <div class="botaoLink">
+            <a href="https://www.youtube.com/@OmegaTech-iy4xk" target="_blank">Acesse nosso canal no YouTube</a>
+        </div>
+        </section>
+
+        <script src="scripts/script.js"></script>
+
+        <footer>
+            <p>&copy; 2024 OMEGATech Engenharia - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>

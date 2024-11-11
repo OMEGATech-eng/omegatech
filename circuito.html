@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rá-tim-bum - OMEGATech</title>
+        <link rel="icon" type="image/x-icon" href="assets/icone.ico">
+        <link rel="stylesheet" href="styles/stylePrincipal.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap">
+    </head> 
+    <body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/imagens/logo2.png" alt="logo">
+                <h1>OmegaTech Engenharia</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quemSomos.html" >Quem Somos</a></li>
+                <li id="projeto"><a href="#" class="ativo">Projetos</a>
+                    <div class="subMenu">
+                        <a href="ratimbum.html">Rá-Tim-Bum</a>
+                        <a href="ponte.html">Ponte em MDF</a>
+                        <a href="#">Circuito CI</a>
+                    </div>
+                </li>
+                <li><a href="contato.html">Contato</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slides">
+        <div class="slide-container">
+            <span class="seta esquerda">&#10094;</span>
+            <span class="seta direita">&#10095;</span>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto1.png" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto2.png" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto3.png" alt="Slide 3">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto4.png" alt="Slide 4">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto5.png" alt="Slide 5">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto6.png" alt="Slide 6">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto7.png" alt="Slide 7">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto8.png" alt="Slide 8">
+            </div>
+            <div class="slide">
+                <img src="assets/imagens/projeto/circuito/foto9.png" alt="Slide 9">
+            </div>
+
+            <div class="indicadorSlide">
+                <span class="indicador" onclick="currentSlide(0)"></span>
+                <span class="indicador" onclick="currentSlide(1)"></span>
+                <span class="indicador" onclick="currentSlide(2)"></span>
+                <span class="indicador" onclick="currentSlide(3)"></span>
+                <span class="indicador" onclick="currentSlide(4)"></span>
+                <span class="indicador" onclick="currentSlide(5)"></span>
+                <span class="indicador" onclick="currentSlide(6)"></span>
+                <span class="indicador" onclick="currentSlide(7)"></span>
+                <span class="indicador" onclick="currentSlide(8)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>SOBRE O CIRCUITO</h2>
+        <p class="descricao">
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Faucibus malesuada orci ac nam mi. Ornare vestibulum ultricies magnis aliquam luctus curae justo diam. Iaculis sit gravida malesuada potenti primis mattis nostra. Vivamus malesuada dui augue ex leo nec tortor tellus purus.
+        </p>
+        <img src="assets/imagens/projeto/circuito/foto1.png" alt="Circuito de portas lógicas" class="imagem-grande">
+        <p class="descricao">
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Faucibus malesuada orci ac nam mi. Ornare vestibulum ultricies magnis aliquam luctus curae justo diam. Iaculis sit gravida malesuada potenti primis mattis nostra. Vivamus malesuada dui augue ex leo nec tortor tellus purus.
+        </p>
+
+    </section>
+
+
+    <section id="desenvolvimento">
+        <p class="descricao">Lorem ipsum odor amet, consectetuer adipiscing elit. Faucibus malesuada orci ac nam mi. Ornare vestibulum ultricies magnis aliquam luctus curae justo diam. Iaculis sit gravida malesuada potenti primis mattis nostra. Vivamus malesuada dui augue ex leo nec tortor tellus purus.</p>
+
+        <div class="imagens">
+            <img src="assets/imagens/projeto/circuito/foto2.png" alt="Componentes do circuito soldados na placa" class="imagem-grande">
+            <img src="assets/imagens/projeto/circuito/foto7.png" alt="Placa com as trilhas do circuito fresadas" class="imagem-grande">
+        </div>
+
+            <p class="descricao">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Faucibus malesuada orci ac nam mi. Ornare vestibulum ultricies magnis aliquam luctus curae justo diam. Iaculis sit gravida malesuada potenti primis mattis nostra. Vivamus malesuada dui augue ex leo nec tortor tellus purus.
+         </p>
+
+            <div class="botaoLink">
+            <a href="assets/arquivos/DiarioDeBordoCircuito.pdf" target="_blank">Acesse o Diário de Bordo</a>  
+
+        </section>
+       
+        <script src="scripts/script.js"></script>
+
+        <footer>
+            <p>&copy; 2024 OMEGATech Engenharia - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>

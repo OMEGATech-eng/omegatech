@@ -1,0 +1,97 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Davi img{
+    right: 0px;
+    bottom: 3px;
+    position: fixed;
+    border-radius: 50%;
+    border-color: white;
+}
+
+.Davi{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #52ffee, #571657, #009688, #44e3d3);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade {
+     0%{
+        background-position-x: 0%;
+     }
+     100%{
+        background-position: 400%;
+     }
+}
+
+body{
+    background-color: #009688;
+}
+
+#curriculo {
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 125px;
+    padding: 20px;
+    background-color: rgb(0, 124, 124);
+    border: 5px dashed #4b1f4b;
+}
+
+#curriculo h2{
+    margin-left: 30px;    
+    font-family: sans-serif;
+} 
+
+#curriculo h4{
+    margin-left: 60px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.Contatos{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fundo1{
+    background-color: cyan;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#fundo2{
+    background-color: cyan;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#fundo3{
+    background-color: cyan;
+    width: 290px;
+    border-radius: 10px;
+}
+
+#fundo4{
+    background-color: cyan;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#fundo5{
+    background-color: cyan;
+    width: 130px;
+    border-radius: 10px;
+}
