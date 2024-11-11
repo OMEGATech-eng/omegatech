@@ -33,4 +33,4 @@ showSlide(slideIndex);
 setInterval(() => {
     slideIndex = (slideIndex + 1) % slides.length;
     showSlide(slideIndex);
-}, 3000);
+}, 10000);
