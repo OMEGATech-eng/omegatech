@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato - OMEGATech</title>
+        <link rel="icon" type="image/x-icon" href="assets/icone.ico">
+        <link rel="stylesheet" href="styles/styleContato.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap">
+    </head> 
+    <body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/imagens/logo2.png" alt="logo">
+                <h1>OmegaTech Engenharia</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quemSomos.html" >Quem Somos</a></li>
+                <li id="projeto"><a href="#">Projetos</a>
+                    <div class="subMenu">
+                        <a href="ratimbum.html">Rá-Tim-Bum</a>
+                        <a href="ponte.html">Ponte em MDF</a>
+                        <a href="circuito.html">Circuito CI</a>
+                    </div>
+                </li>   
+                <li><a href="#" class="ativo">Contato</a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="formulario">
+
+            <h2 class="title">Entre em contato:</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="3636cebf-0f93-47c2-ab17-ccad02cfa86e">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <label>Nome:</label>
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <label>Assunto:</label>
+                <input type="text" name="subject" placeholder="Assunto" required>
+                <label>Mensagem:</label>
+                <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit" onclick="">Enviar Mensagem</button>
+                <input type="hidden" name="redirectTo" value="https://omegatech-eng.github.io/omegatech/contatoC.html>
+            </form>
+        </div>
+    </div>
+
+        <footer>
+            <p>&copy; 2024 OMEGATech Engenharia - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+    
+</html>
