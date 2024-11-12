@@ -295,7 +295,7 @@ footer {
     border-top: 2px solid #1E90FF;
     font-size: 14px;
     margin-top: 60px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
