@@ -1,8 +1,8 @@
-let indiceSlide = 0;
+let slideIndex = 0;
 const slides = document.querySelectorAll(".slide");
 const indicadores = document.querySelectorAll(".indicador");
 
-function mostarSlide(index) {
+function showSlide(index) {
     slides.forEach((slide, i) => {
         slide.style.display = i === index ? "block" : "none";
     });
@@ -15,22 +15,22 @@ function mostarSlide(index) {
 }
 
 document.querySelector(".seta.esquerda").addEventListener("click", () => {
-    indiceSlide = (indiceSlide - 1 + slides.length) % slides.length;
-    mostarSlide(indiceSlide);
+    slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+    showSlide(slideIndex);
 });
 
 document.querySelector(".seta.direita").addEventListener("click", () => {
-    indiceSlide = (indiceSlide + 1) % slides.length;
-    mostarSlide(indiceSlide);
+    slideIndex = (slideIndex + 1) % slides.length;
+    showSlide(slideIndex);
 });
 
-function slideAtual(index) {
-    indiceSlide = index;
-    mostarSlide(indiceSlide);
+function currentSlide(index) {
+    slideIndex = index;
+    showSlide(slideIndex);
 }
 
-mostarSlide(indiceSlide);
+showSlide(slideIndex);
 setInterval(() => {
-    indiceSlide = (indiceSlide + 1) % slides.length;
-    mostarSlide(indiceSlide);
+    slideIndex = (slideIndex + 1) % slides.length;
+    showSlide(slideIndex);
 }, 10000);

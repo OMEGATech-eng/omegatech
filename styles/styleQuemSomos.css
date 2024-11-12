@@ -213,7 +213,7 @@ header ul li a:hover {
     background-color: rgb(51, 51, 51);;
     color: #FFA500;
     width: 250px;
-    height: 408px;
+    height: 410px;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
@@ -256,7 +256,7 @@ header ul li a:hover {
 .curriculo1 {
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 35px;
+    margin-top: 46px;
     background-color: #1E90FF;
     color: #FFF;
     text-decoration: none;
@@ -294,4 +294,8 @@ footer {
     padding: 16px;
     border-top: 2px solid #1E90FF;
     font-size: 14px;
+    margin-top: 60px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
