@@ -8,9 +8,6 @@
 body {
     background-color: #dbdbdb;
     line-height: 1.6;
-
-
-
 }
 
 header nav {
@@ -120,7 +117,6 @@ header ul li a:hover {
     color: #1E90FF;
 }
 
-
 form{
     display: flex;
     flex-direction: column;
@@ -181,8 +177,6 @@ form button{
 }
 form button:hover{
     background-color: #1E90FF;
-
-
 }
 
 .containerC {

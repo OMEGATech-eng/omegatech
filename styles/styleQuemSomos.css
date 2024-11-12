@@ -13,14 +13,12 @@ body {
     padding: 0;
 }
 
-
 header nav {
     width: 100%;
     background-color: rgb(17, 17, 17);
     display: flex;
     justify-content: space-around;
     padding: 0px;
-
 }
 
 .logo img { 
@@ -142,32 +140,6 @@ header ul li a:hover {
     font-size: 20px;
 }
 
-.valores {
-    background-color: #dbdbdb;
-    padding: 32px 16px;
-    text-align: center;
-}
-
-.valores h3 {
-    font-size: 32px;
-    color: #1E90FF;
-    margin-bottom: 16px;
-    
-}
-
-.valores ul {
-    list-style-type: none;
-    padding: 0;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
-
-.valores li {
-    margin-bottom: 16px;
-    font-size: 20px;
-}
-
 .equipe {
     text-align: center;
     padding: 48px 16px;
@@ -199,7 +171,6 @@ header ul li a:hover {
 .foto-equipe:hover {
     transform: scale(1.05);
 }
-
 
 .team-cards {
     display: flex;
@@ -233,7 +204,6 @@ header ul li a:hover {
     object-fit: cover; 
     margin-bottom: 16px;
 }
-
 
 .team-card h4 {
     font-size: 19px;
